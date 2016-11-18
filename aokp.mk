@@ -7,9 +7,6 @@ TARGET_BOOTANIMATION_HALF_RES := false
 # Inherit some common AOKP stuff.
 $(call inherit-product, vendor/aokp/configs/common_full_tablet_wifionly.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/aokp/configs/nfc_enhanced.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/asus/flo/full_flo.mk)
 
